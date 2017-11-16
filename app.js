@@ -24,6 +24,13 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/index', (req, res) => {
+  res.render('index', {
+    stripePublishableKey: keys.stripePublishableKey
+  });
+});
+
+
 // Charge Route
 app.post('/charge', (req, res) => {
   const amount = 2500;
