@@ -35,8 +35,7 @@ $ npm start
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Sachin Saini
 
 ### Version
 
